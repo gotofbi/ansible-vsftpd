@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: Connor Yoon
+  company: TELUS digital
+  description: Installs and configures vsftpd
+  license: MIT
+  platforms:
+    - name: Ubuntu
+      versions:
+        - lucid
+        - precise
+        - trusty
+        - utopic
+        - vivid
+  categories:
+    - networking
+dependencies:
+  - role: telusdigital.ssl-certificate
