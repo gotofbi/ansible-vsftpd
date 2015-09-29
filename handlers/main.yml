@@ -1,5 +1,7 @@
 ---
-- name: restart vsftpd
+- name: Restart Service | vsftpd
   service:
-  	name: vsftpd
-  	state: restarted
+    state: restarted
+    name: vsftpd
+  tags:
+    - disruptive
